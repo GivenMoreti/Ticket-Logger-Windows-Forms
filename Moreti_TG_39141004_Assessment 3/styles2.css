@@ -1,0 +1,94 @@
+﻿body {
+    background-color: aliceblue;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: monospace, sans-serif;
+    padding: 10px;
+}
+
+
+#EmpId1, #Name1, #Email1, #IssueDescription1, #Comments1 {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    color: gray;
+    width: 250px;
+    align-items: center;
+    border: 0.1px solid gray;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#DepartmentDropDown1, #PriorityDropDown1, #StatusDropDown1 {
+    border: none;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#Comments1 {
+    height: 100px;
+    width: 100%;
+}
+
+.EmplIdClass1 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+}
+
+#GridViewTickets {
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+#Calendar2 {
+    width: 100%;
+}
+
+.statusDB, .departmentDB, .priorityDB {
+    background-color: lightblue;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.searchItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchBox {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 150px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#SearchByDepartment1, #SearchById1, #SearchByStatus1, #SearchByIssue1, #SearchByPriority1 {
+    width: 120px;
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0.1px solid lightgray;
+}
